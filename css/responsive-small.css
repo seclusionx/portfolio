@@ -1,0 +1,93 @@
+/* Main CSS */
+
+img, video, object, embed {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+hr {
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+    background-color: #2d3c49;
+}
+
+#featured-h3 {
+    color: #7d97ad;
+}
+
+#hero-icon {
+    margin-top: 25px;
+    color: red;
+    font-size: 1.25em;
+}
+
+#hr-col {
+    justify-content: center;
+    align-content: center;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#main-image {
+    justify-content: center;
+}
+
+#name {
+    text-align: right;
+    margin-top: 25px;
+}
+
+#name-h1 {
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+#superhero-img {
+    display: block;
+}
+
+#title-h3 {
+    line-height: 80%;
+}
+
+/* Responsive CSS */
+
+@media screen and (min-width: 800px ) {
+    .fas fa-user-ninja {
+       font-size: 3em;
+    }
+
+}
+
+@media screen and (max-width: 358px) {
+    #hero-icon {
+        font-size: 1em;
+    }
+    
+    #name-h1 {
+        font-size: 100%;
+    }
+
+    #title-h3 {
+        font-size: 100%;
+    }
+
+}
+
+/* Additional CSS */
