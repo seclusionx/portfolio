@@ -77,17 +77,39 @@ hr {
 
 @media screen and (max-width: 358px) {
     #hero-icon {
-        font-size: 1em;
+        font-size: 0.75em;
+        width: 25%;
     }
     
     #name-h1 {
         font-size: 100%;
+        width: 80%;
     }
 
     #title-h3 {
-        font-size: 100%;
+        font-size: 80%;
+        width: 75%;
+        display: none;
     }
 
 }
+
+@media (max-width: 980px) {
+    #work-item1, #work-item2, #work-item3 {
+      width: 100%;
+    }
+
+    #work-item1 {
+        order: 1;
+    }
+
+    #work-item2 {
+        order: 2;
+    }
+
+    #work-item3 {
+        order: 3;
+    }
+  }
 
 /* Additional CSS */
