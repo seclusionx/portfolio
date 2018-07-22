@@ -26,9 +26,13 @@ hr {
 }
 
 #hero-icon {
-    margin-top: 25px;
     color: red;
     font-size: 1.25em;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 #hr-col {
@@ -56,6 +60,8 @@ hr {
 #name-h1 {
     font-weight: 900;
     margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #superhero-img {
@@ -64,6 +70,9 @@ hr {
 
 #title-h3 {
     line-height: 80%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
 }
 
 /* Responsive CSS */
@@ -75,21 +84,24 @@ hr {
 
 }
 
-@media screen and (max-width: 358px) {
+@media screen and (max-width: 450px) {
     #hero-icon {
         font-size: 0.75em;
         width: 25%;
     }
     
     #name-h1 {
-        font-size: 100%;
-        width: 80%;
+        font-size: 24px;
+
     }
 
     #title-h3 {
-        font-size: 80%;
-        width: 75%;
-        display: none;
+        font-size: 16px;
+    }
+
+    #nav-row {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 }
