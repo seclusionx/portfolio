@@ -28,11 +28,6 @@ hr {
 #hero-icon {
     color: red;
     font-size: 1.25em;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 #hr-col {
@@ -54,14 +49,10 @@ hr {
 
 #name {
     text-align: right;
-    margin-top: 25px;
 }
 
 #name-h1 {
     font-weight: 900;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 #superhero-img {
@@ -70,9 +61,6 @@ hr {
 
 #title-h3 {
     line-height: 80%;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
 }
 
 /* Responsive CSS */
@@ -97,11 +85,6 @@ hr {
 
     #title-h3 {
         font-size: 16px;
-    }
-
-    #nav-row {
-        padding-left: 0px;
-        padding-right: 0px;
     }
 
 }
