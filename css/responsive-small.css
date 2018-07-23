@@ -28,6 +28,7 @@ hr {
 #hero-icon {
     color: red;
     font-size: 1.25em;
+    margin-top: 15px;
 }
 
 #hr-col {
@@ -49,6 +50,7 @@ hr {
 
 #name {
     text-align: right;
+    margin-top: 15px;
 }
 
 #name-h1 {
