@@ -21,8 +21,12 @@ hr {
     background-color: #2d3c49;
 }
 
-#featured-h3 {
+#featured-header {
     color: #7d97ad;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 1.75em;
 }
 
 #hero-icon {
@@ -31,12 +35,12 @@ hr {
     margin-top: 15px;
 }
 
-#hr-col {
+#hr-c {
     justify-content: center;
     align-content: center;
 }
 
-#main {
+#main-con {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -48,12 +52,12 @@ hr {
     justify-content: center;
 }
 
-#name {
+#name-c {
     text-align: right;
     margin-top: 15px;
 }
 
-#name-h1 {
+#full-name {
     font-weight: 900;
 }
 
@@ -61,7 +65,7 @@ hr {
     display: block;
 }
 
-#title-h3 {
+#subtitle {
     line-height: 80%;
 }
 
@@ -75,17 +79,20 @@ hr {
 }
 
 @media screen and (max-width: 450px) {
+    p {
+        font-style: italic;
+    }
+
     #hero-icon {
         font-size: 0.75em;
         width: 25%;
     }
     
-    #name-h1 {
+    #full-name {
         font-size: 24px;
-
     }
 
-    #title-h3 {
+    #subtitle {
         font-size: 16px;
     }
 

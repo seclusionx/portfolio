@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <!-- Required meta tags -->
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -24,70 +24,76 @@
     <body>
 
         <!-- Primary container -->
-        <div id="main" class="container">
+        <div id="main-con" class="container">
             
-            <!-- Nav -->
-            <div id="nav-row" class="row">
-                <span id="hero-icon" class="col-4 text-xs-left">
-                    <i class="fas fa-user-ninja fa-4x"></i>
-                </span>
+            <!-- Header -->
+            <header>
+                <div id="header-r" class="row">
+                    <span id="hero-icon" class="col-4 text-xs-left">
+                        <i class="fas fa-user-ninja fa-4x"></i>
+                    </span>
 
-                <div id="name" class="col-8 text-xs-center">
-                    <h1 id="name-h1">Will Gillette Jr.</h1>
-                    <h3 id="title-h3">Front-End Superhero!</h3>
+                    <div id="name-c" class="col-8 text-xs-center">
+                        <h1 id="full-name">Will Gillette Jr.</h1>
+                        <h3 id="subtitle">Front-End Superhero!</h3>
+                    </div>
                 </div>
-            </div>
-
-            <div id="hr-row" class="row">
-                <div id="hr-col" class="col mx-auto text-center">
-                    <hr>
-                </div>
-            </div>
             
-            <!-- Banner Image -->
-            <div id="banner-row" class="row">
-                <div id="main-image" class="col-12">
-                    <figure class="figure-img mx-auto">
-                        <img src="img/gettyimages-superhero.jpg" id="superhero-img" class="rounded mx-auto img-fluid" alt="Image by Getty Images via [https://media.npr.org/assets/img/2016/11/15/gettyimages-534480043_custom-0f61fb0d9530db017664dd2a3cae37c91078153c-s800-c85.jpg] (copyright-free)">      
-                            <figcaption id="banner-img-caption" class="figure-caption text-right text-lg-center">yogysic/Getty Images</figcaption>
-                    </figure>
-                </div>
-            </div>
 
-            <!-- Featured Work Items -->
-            <div id="feat-title-row" class="row">
-                <h2 id="featured-h3" class="col text-left">Featured Work</h2>
-            </div>
+                <div id="hr-r" class="row">
+                    <div id="hr-c" class="col mx-auto text-center">
+                        <hr>
+                    </div>
+                </div>
+            </header>
 
-            <div id="feat-work-row" class="row">
-                <div id="work-item1" class="col-xs-12 text-center mx-auto">
-                    <figure class="figure-img">
-                        <img src="img/animal-card-icon.png" id="animal-img" class="rounded mx-auto img-fluid" alt="Animal Card Project">
-                            <figcaption id="animal-img-caption" class="figure-caption text-center"><a href="https://codepen.io/seclusion/pen/jYJWEQ"><h4>Animal Card Project</h4></a></figcaption>
-                    </figure>
+            <!-- Main Content/Banner Image -->
+            <main>
+                <div id="banner-r" class="row">
+                    <div id="main-image" class="col-12">
+                        <figure class="figure-img mx-auto">
+                            <img src="img/gettyimages-superhero.jpg" id="superhero-img" class="rounded mx-auto img-fluid" alt="Image by Getty Images via [https://media.npr.org/assets/img/2016/11/15/gettyimages-534480043_custom-0f61fb0d9530db017664dd2a3cae37c91078153c-s800-c85.jpg] (copyright-free)">      
+                                <figcaption id="banner-img-caption" class="figure-caption text-right text-lg-center">yogysic/Getty Images</figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div id="work-item2" class="col-xs-12 text-center mx-auto">
-                    <figure class="figure-img">
-                        <img src="img/pixel-maker-icon.png" id="pixel-img" class="rounded mx-auto img-fluid" alt="Pixel Art Maker Project">
-                            <figcaption id="pixel-img-caption" class="figure-caption text-center"><a href="https://codepen.io/seclusion/pen/pLYRbE"><h4>Pixel Art Maker Project</h4></a></figcaption>
-                    </figure>
+            </main>
+
+            <!-- Nav/Featured Work Items -->
+            <nav>   
+                <div id="feat-title-r" class="row">
+                    <p id="featured-header" class="col text-left">Featured Work</p>
                 </div>
-                <div id="work-item3" class="col-xs-12 text-center mx-auto">
-                    <figure class="figure-img">
-                        <img src="img/calculator-icon.png" id="calc-img" class="rounded mx-auto img-fluid" alt="Calculator Tutorial Project">
-                            <figcaption id="calc-img-caption" class="figure-caption text-center"><a href="https://codepen.io/seclusion/pen/OzNJoq"><h4>Calculator Tutorial Project</h4></a></figcaption>
-                    </figure>
-               </div>
-            </div>
-            
+
+                <div id="feat-work-r" class="row">
+                    <div id="work-item1" class="col-xs-12 text-center mx-auto">
+                        <figure id="animal-img-fig" class="figure-img">
+                            <img src="img/animal-card-icon.png" id="animal-img" class="rounded mx-auto img-fluid" alt="Animal Card Project">
+                                <figcaption id="animal-img-caption" class="figure-caption text-center"><a href="https://codepen.io/seclusion/pen/jYJWEQ"><h4>Animal Card Project</h4></a></figcaption>
+                        </figure>
+                    </div>
+                    <div id="work-item2" class="col-xs-12 text-center mx-auto">
+                        <figure id="pixel-img-fig" class="figure-img">
+                            <img src="img/pixel-maker-icon.png" id="pixel-img" class="rounded mx-auto img-fluid" alt="Pixel Art Maker Project">
+                                <figcaption id="pixel-img-caption" class="figure-caption text-center"><a href="https://codepen.io/seclusion/pen/pLYRbE"><h4>Pixel Art Maker Project</h4></a></figcaption>
+                        </figure>
+                    </div>
+                    <div id="work-item3" class="col-xs-12 text-center mx-auto">
+                        <figure id="calc-img-fig" class="figure-img">
+                            <img src="img/calculator-icon.png" id="calc-img" class="rounded mx-auto img-fluid" alt="Calculator Tutorial Project">
+                                <figcaption id="calc-img-caption" class="figure-caption text-center"><a href="https://codepen.io/seclusion/pen/OzNJoq"><h4>Calculator Tutorial Project</h4></a></figcaption>
+                        </figure>
+                   </div>
+                </div>
+            </nav>
 
         </div>
             
-        <!-- Optional Bootstrap JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+            <!-- Optional Bootstrap JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 </html>
 
